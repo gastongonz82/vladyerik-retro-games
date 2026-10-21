@@ -56,6 +56,12 @@
       "size": 10314040
     },
     {
+      "name": "dino.zip",
+      "path": "roms/dino.zip",
+      "system": null,
+      "size": 4118661
+    },
+    {
       "name": "Donkey Kong 64 (U) [!].zip",
       "path": "roms/Donkey%20Kong%2064%20%28U%29%20%5B%21%5D.zip",
       "system": "n64",
