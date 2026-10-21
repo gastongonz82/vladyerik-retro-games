@@ -90,6 +90,12 @@
       "path": "roms/Duke%20Nukem%2064%20%28USA%29.zip",
       "system": "n64",
       "size": 7484599
+    },
+    {
+      "name": "Excitebike 64 (USA).zip",
+      "path": "roms/Excitebike%2064%20%28USA%29.zip",
+      "system": "n64",
+      "size": 15847495
     }
   ]
 }
