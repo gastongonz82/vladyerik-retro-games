@@ -32,9 +32,9 @@
       "size": 1174804
     },
     {
-      "name": "avspu.zip",
+      "name": "Alien vs. Predator (1994).zip",
       "path": "roms/avspu.zip",
-      "system": null,
+      "system": "arcade",
       "size": 11074067
     },
     {
@@ -44,9 +44,9 @@
       "size": 761400
     },
     {
-      "name": "bloodbro.zip",
+      "name": "Blood Bros. (1990).zip",
       "path": "roms/bloodbro.zip",
-      "system": null,
+      "system": "arcade",
       "size": 1150008
     },
     {
@@ -62,15 +62,15 @@
       "size": 4682461
     },
     {
-      "name": "crusnusa.zip",
+      "name": "Cruis'n USA Arcade (1994).zip",
       "path": "roms/crusnusa.zip",
-      "system": null,
+      "system": "arcade",
       "size": 11278430
     },
     {
-      "name": "ddragon2.zip",
+      "name": "Double Dragon II: The Revenge (1988).zip",
       "path": "roms/ddragon2.zip",
-      "system": null,
+      "system": "arcade",
       "size": 748422
     },
     {
@@ -140,9 +140,9 @@
       "size": 7994760
     },
     {
-      "name": "ffightub.zip",
+      "name": "Final Fight (1989).zip",
       "path": "roms/ffightub.zip",
-      "system": null,
+      "system": "arcade",
       "size": 1621953
     },
     {
@@ -176,9 +176,9 @@
       "size": 326754
     },
     {
-      "name": "ga2.zip",
+      "name": "Golden Axe: The Revenge of Death Adder (1992).zip",
       "path": "roms/ga2.zip",
-      "system": null,
+      "system": "arcade",
       "size": 8594070
     },
     {
@@ -188,9 +188,9 @@
       "size": 332606
     },
     {
-      "name": "goldnaxe.zip",
+      "name": "Golden Axe Arcade (1989).zip",
       "path": "roms/goldnaxe.zip",
-      "system": null,
+      "system": "arcade",
       "size": 1164058
     },
     {
@@ -242,9 +242,9 @@
       "size": 1282159
     },
     {
-      "name": "mk3.zip",
+      "name": "Mortal Kombat 3 Arcade (1995).zip",
       "path": "roms/mk3.zip",
-      "system": null,
+      "system": "arcade",
       "size": 20645007
     },
     {
@@ -272,9 +272,9 @@
       "size": 10916172
     },
     {
-      "name": "msh.zip",
+      "name": "Marvel Super Heroes (1995).zip",
       "path": "roms/msh.zip",
-      "system": null,
+      "system": "arcade",
       "size": 20101792
     },
     {
@@ -290,6 +290,12 @@
       "size": 19066645
     },
     {
+      "name": "Marvel vs. Capcom: Clash of Super Heroes (1998).zip",
+      "path": "roms/mvscu.zip",
+      "system": "arcade",
+      "size": 23581770
+    },
+    {
       "name": "NBA Jam (USA).zip",
       "path": "roms/NBA%20Jam%20%28USA%29.zip",
       "system": "snes",
@@ -302,16 +308,16 @@
       "size": 8178384
     },
     {
+      "name": "Out Run (1986).zip",
+      "path": "roms/outrun.zip",
+      "system": "arcade",
+      "size": 877001
+    },
+    {
       "name": "OutRun (Japan).zip",
       "path": "roms/OutRun%20%28Japan%29.zip",
       "system": "segaMD",
       "size": 523129
-    },
-    {
-      "name": "outrun.zip",
-      "path": "roms/outrun.zip",
-      "system": null,
-      "size": 877001
     },
     {
       "name": "Prince of Persia 2 - The Shadow and the Flame (Europe) (Proto).zip",
@@ -404,9 +410,9 @@
       "size": 28930614
     },
     {
-      "name": "ssridersubc.zip",
+      "name": "Sunset Riders (1991).zip",
       "path": "roms/ssridersubc.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2475584
     },
     {
@@ -542,15 +548,15 @@
       "size": 6185620
     },
     {
-      "name": "wboy.zip",
+      "name": "Wonder Boy (1986).zip",
       "path": "roms/wboy.zip",
-      "system": null,
+      "system": "arcade",
       "size": 90372
     },
     {
-      "name": "xmvsf.zip",
+      "name": "X-Men vs. Street Fighter (1996).zip",
       "path": "roms/xmvsf.zip",
-      "system": null,
+      "system": "arcade",
       "size": 19608211
     }
   ]
