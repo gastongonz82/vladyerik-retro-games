@@ -284,6 +284,12 @@
       "size": 676890
     },
     {
+      "name": "simpsons.zip",
+      "path": "roms/simpsons.zip",
+      "system": null,
+      "size": 2484192
+    },
+    {
       "name": "Sonic & Knuckles + Sonic The Hedgehog 3 (World).zip",
       "path": "roms/Sonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%203%20%28World%29.zip",
       "system": "segaMD",
