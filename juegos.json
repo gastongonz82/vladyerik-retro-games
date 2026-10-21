@@ -96,6 +96,42 @@
       "path": "roms/Excitebike%2064%20%28USA%29.zip",
       "system": "n64",
       "size": 15847495
+    },
+    {
+      "name": "Extreme-G (USA).zip",
+      "path": "roms/Extreme-G%20%28USA%29.zip",
+      "system": "n64",
+      "size": 7994760
+    },
+    {
+      "name": "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "path": "roms/FIFA%20-%20Road%20to%20World%20Cup%2098%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%29.zip",
+      "system": "n64",
+      "size": 10400839
+    },
+    {
+      "name": "FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv).zip",
+      "path": "roms/FIFA%2099%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%2CSv%29.zip",
+      "system": "n64",
+      "size": 14215702
+    },
+    {
+      "name": "Final Fight (USA).zip",
+      "path": "roms/Final%20Fight%20%28USA%29.zip",
+      "system": "snes",
+      "size": 643142
+    },
+    {
+      "name": "Final Fight 3 (USA).zip",
+      "path": "roms/Final%20Fight%203%20%28USA%29.zip",
+      "system": "snes",
+      "size": 1834637
+    },
+    {
+      "name": "Flintstones, The (USA).zip",
+      "path": "roms/Flintstones%2C%20The%20%28USA%29.zip",
+      "system": "segaMD",
+      "size": 326754
     }
   ]
 }
