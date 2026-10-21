@@ -2,7 +2,7 @@ name: Actualizar catálogo retro
 on:
   push:
     branches: [main]
-    paths: ['roms/**', '.github/workflows/catalogo.yml']
+    paths: ['roms/**', 'scripts/generate_catalog.py', '.github/workflows/catalogo.yml']
   workflow_dispatch:
 permissions:
   contents: write
