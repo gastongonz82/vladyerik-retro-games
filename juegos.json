@@ -266,6 +266,12 @@
       "size": 10916172
     },
     {
+      "name": "msh.zip",
+      "path": "roms/msh.zip",
+      "system": null,
+      "size": 20101792
+    },
+    {
       "name": "Metal Slug (1996).zip",
       "path": "roms/mslug.zip",
       "system": "arcade",
