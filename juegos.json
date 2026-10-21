@@ -284,12 +284,6 @@
       "size": 676890
     },
     {
-      "name": "The Simpsons Arcade (1991).zip",
-      "path": "roms/simpsons.zip",
-      "system": "arcade",
-      "size": 2484192
-    },
-    {
       "name": "Sonic & Knuckles + Sonic The Hedgehog 3 (World).zip",
       "path": "roms/Sonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%203%20%28World%29.zip",
       "system": "segaMD",
@@ -308,16 +302,16 @@
       "size": 757196
     },
     {
-      "name": "Spider-Man & Venom - Maximum Carnage (USA).zip",
-      "path": "roms/Spider-Man%20%26%20Venom%20-%20Maximum%20Carnage%20%28USA%29.zip",
-      "system": "snes",
-      "size": 1207644
-    },
-    {
       "name": "Spider-Man (USA).zip",
       "path": "roms/Spider-Man%20%28USA%29.zip",
       "system": "n64",
       "size": 28930614
+    },
+    {
+      "name": "Spider-Man & Venom - Maximum Carnage (USA).zip",
+      "path": "roms/Spider-Man%20%26%20Venom%20-%20Maximum%20Carnage%20%28USA%29.zip",
+      "system": "snes",
+      "size": 1207644
     },
     {
       "name": "Street Fighter Alpha 2 (USA).zip",
@@ -408,6 +402,18 @@
       "path": "roms/Teenage%20Mutant%20Ninja%20Turtles%20IV%20-%20Turtles%20in%20Time%20%28USA%29.zip",
       "system": "snes",
       "size": 804800
+    },
+    {
+      "name": "The Simpsons Arcade — 2 jugadores.zip",
+      "path": "roms/simpsons2p2.zip",
+      "system": "arcade",
+      "size": 2740000
+    },
+    {
+      "name": "The Simpsons Arcade (1991).zip",
+      "path": "roms/simpsons.zip",
+      "system": "arcade",
+      "size": 2484192
     },
     {
       "name": "Top Gear (USA).zip",
