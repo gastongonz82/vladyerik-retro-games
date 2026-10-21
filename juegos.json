@@ -132,6 +132,42 @@
       "path": "roms/Flintstones%2C%20The%20%28USA%29.zip",
       "system": "segaMD",
       "size": 326754
+    },
+    {
+      "name": "Golden Axe II (World) (Beta).zip",
+      "path": "roms/Golden%20Axe%20II%20%28World%29%20%28Beta%29.zip",
+      "system": "segaMD",
+      "size": 332606
+    },
+    {
+      "name": "Indiana Jones and the Last Crusade (USA).zip",
+      "path": "roms/Indiana%20Jones%20and%20the%20Last%20Crusade%20%28USA%29.zip",
+      "system": "segaMD",
+      "size": 490036
+    },
+    {
+      "name": "International Superstar Soccer (USA).zip",
+      "path": "roms/International%20Superstar%20Soccer%20%28USA%29.zip",
+      "system": "snes",
+      "size": 695954
+    },
+    {
+      "name": "International Superstar Soccer Deluxe (Europe).zip",
+      "path": "roms/International%20Superstar%20Soccer%20Deluxe%20%28Europe%29.zip",
+      "system": "segaMD",
+      "size": 1205297
+    },
+    {
+      "name": "Jungle Book, The (USA).zip",
+      "path": "roms/Jungle%20Book%2C%20The%20%28USA%29.zip",
+      "system": "segaGG",
+      "size": 151277
+    },
+    {
+      "name": "Mario Kart 64 (E) (V1.1) [!].zip",
+      "path": "roms/Mario%20Kart%2064%20%28E%29%20%28V1.1%29%20%5B%21%5D.zip",
+      "system": "n64",
+      "size": 9021826
     }
   ]
 }
