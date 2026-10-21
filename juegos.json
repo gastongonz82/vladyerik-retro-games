@@ -284,9 +284,9 @@
       "size": 676890
     },
     {
-      "name": "The Simpsons Arcade (1991)",
+      "name": "simpsons2p2.zip",
       "path": "roms/simpsons2p2.zip",
-      "system": "arcade",
+      "system": null,
       "size": 2735503
     },
     {
@@ -444,12 +444,6 @@
       "path": "roms/Wave%20Race%2064%20%28USA%29%20%28Rev%20A%29.zip",
       "system": "n64",
       "size": 6185620
-    },
-    {
-      "name": "X-Men vs. Street Fighter (World) (Unl).zip",
-      "path": "roms/X-Men%20vs.%20Street%20Fighter%20%28World%29%20%28Unl%29.zip",
-      "system": "snes",
-      "size": 1135145
     }
   ]
 }
