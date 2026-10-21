@@ -1,0 +1,24 @@
+name: Actualizar catálogo retro
+on:
+  push:
+    branches: [main]
+    paths: ['roms/**', '.github/workflows/catalogo.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  catalogo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar índice de ROMs
+        run: python3 scripts/generate_catalog.py
+      - name: Guardar catálogo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add juegos.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar catálogo de juegos"
+            git push
+          fi
