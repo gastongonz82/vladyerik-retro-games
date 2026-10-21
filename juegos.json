@@ -272,6 +272,12 @@
       "size": 14758164
     },
     {
+      "name": "Metal Slug 2 (1998).zip",
+      "path": "roms/mslug2.zip",
+      "system": "arcade",
+      "size": 19066645
+    },
+    {
       "name": "NBA Jam (USA).zip",
       "path": "roms/NBA%20Jam%20%28USA%29.zip",
       "system": "snes",
@@ -528,6 +534,12 @@
       "path": "roms/wboy.zip",
       "system": null,
       "size": 90372
+    },
+    {
+      "name": "xmvsf.zip",
+      "path": "roms/xmvsf.zip",
+      "system": null,
+      "size": 19608211
     }
   ]
 }
