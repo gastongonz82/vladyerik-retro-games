@@ -186,6 +186,18 @@
       "path": "roms/Mickey%20Mania%20-%20The%20Timeless%20Adventures%20of%20Mickey%20Mouse%20%28Europe%29.zip",
       "system": "segaMD",
       "size": 1282159
+    },
+    {
+      "name": "Mortal Kombat 4 (Europe).zip",
+      "path": "roms/Mortal%20Kombat%204%20%28Europe%29.zip",
+      "system": "n64",
+      "size": 13677332
+    },
+    {
+      "name": "Mortal Kombat II (USA).zip",
+      "path": "roms/Mortal%20Kombat%20II%20%28USA%29.zip",
+      "system": "snes",
+      "size": 2647321
     }
   ]
 }
