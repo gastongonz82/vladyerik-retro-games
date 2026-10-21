@@ -4,56 +4,50 @@
     {
       "name": "1200-in-1 (J) [p1].zip",
       "path": "roms/1200-in-1%20%28J%29%20%5Bp1%5D.zip",
-      "system": null,
+      "system": "nes",
       "size": 324038
     },
     {
       "name": "72-in-1 [p1].zip",
       "path": "roms/72-in-1%20%5Bp1%5D.zip",
-      "system": null,
+      "system": "nes",
       "size": 970547
     },
     {
       "name": "Adventure Island Classic (E) [!].zip",
       "path": "roms/Adventure%20Island%20Classic%20%28E%29%20%5B%21%5D.zip",
-      "system": null,
+      "system": "nes",
       "size": 39596
     },
     {
       "name": "Aladdin (U) [!].zip",
       "path": "roms/Aladdin%20%28U%29%20%5B%21%5D.zip",
-      "system": null,
+      "system": "snes",
       "size": 829746
     },
     {
       "name": "Aladdin (USA) (Beta).zip",
       "path": "roms/Aladdin%20%28USA%29%20%28Beta%29.zip",
-      "system": null,
+      "system": "segaMD",
       "size": 1174804
     },
     {
       "name": "Batman Returns (USA).zip",
       "path": "roms/Batman%20Returns%20%28USA%29.zip",
-      "system": null,
+      "system": "snes",
       "size": 761400
     },
     {
       "name": "Contra III - The Alien Wars (USA).zip",
       "path": "roms/Contra%20III%20-%20The%20Alien%20Wars%20%28USA%29.zip",
-      "system": null,
+      "system": "snes",
       "size": 751582
     },
     {
       "name": "Cruis'n USA (USA) (Rev A).zip",
       "path": "roms/Cruis%27n%20USA%20%28USA%29%20%28Rev%20A%29.zip",
-      "system": null,
+      "system": "n64",
       "size": 4682461
-    },
-    {
-      "name": "README.md",
-      "path": "roms/README.md",
-      "system": "segaMD",
-      "size": 320
     }
   ]
 }
