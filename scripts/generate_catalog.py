@@ -30,6 +30,23 @@ arcade_names = {
     "mslug2": "Metal Slug 2 (1998)",
     "snowbros": "Snow Bros. (1990)",
     "bublbobl": "Bubble Bobble (1986)",
+    "avspu": "Alien vs. Predator (1994)",
+    "bloodbro": "Blood Bros. (1990)",
+    "crusnusa": "Cruis'n USA Arcade (1994)",
+    "ddragon2": "Double Dragon II: The Revenge (1988)",
+    "ffightub": "Final Fight (1989)",
+    "ga2": "Golden Axe: The Revenge of Death Adder (1992)",
+    "goldnaxe": "Golden Axe Arcade (1989)",
+    "mk": "Mortal Kombat Arcade (1992)",
+    "mk2": "Mortal Kombat II Arcade (1993)",
+    "mk3": "Mortal Kombat 3 Arcade (1995)",
+    "umk3": "Ultimate Mortal Kombat 3 Arcade (1995)",
+    "msh": "Marvel Super Heroes (1995)",
+    "mvscu": "Marvel vs. Capcom: Clash of Super Heroes (1998)",
+    "outrun": "Out Run (1986)",
+    "ssridersubc": "Sunset Riders (1991)",
+    "wboy": "Wonder Boy (1986)",
+    "xmvsf": "X-Men vs. Street Fighter (1996)",
 }
 # Preserve manually curated names/systems across subsequent ROM uploads.
 previous = {}
