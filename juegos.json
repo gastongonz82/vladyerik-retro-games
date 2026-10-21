@@ -32,10 +32,22 @@
       "size": 1174804
     },
     {
+      "name": "avspu.zip",
+      "path": "roms/avspu.zip",
+      "system": null,
+      "size": 11074067
+    },
+    {
       "name": "Batman Returns (USA).zip",
       "path": "roms/Batman%20Returns%20%28USA%29.zip",
       "system": "snes",
       "size": 761400
+    },
+    {
+      "name": "bloodbro.zip",
+      "path": "roms/bloodbro.zip",
+      "system": null,
+      "size": 1150008
     },
     {
       "name": "Contra III - The Alien Wars (USA).zip",
@@ -48,6 +60,18 @@
       "path": "roms/Cruis%27n%20USA%20%28USA%29%20%28Rev%20A%29.zip",
       "system": "n64",
       "size": 4682461
+    },
+    {
+      "name": "crusnusa.zip",
+      "path": "roms/crusnusa.zip",
+      "system": null,
+      "size": 11278430
+    },
+    {
+      "name": "ddragon2.zip",
+      "path": "roms/ddragon2.zip",
+      "system": null,
+      "size": 748422
     },
     {
       "name": "Diddy Kong Racing (USA) (En,Fr) (Rev A).zip",
@@ -116,6 +140,12 @@
       "size": 7994760
     },
     {
+      "name": "ffightub.zip",
+      "path": "roms/ffightub.zip",
+      "system": null,
+      "size": 1621953
+    },
+    {
       "name": "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
       "path": "roms/FIFA%20-%20Road%20to%20World%20Cup%2098%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%29.zip",
       "system": "n64",
@@ -146,10 +176,22 @@
       "size": 326754
     },
     {
+      "name": "ga2.zip",
+      "path": "roms/ga2.zip",
+      "system": null,
+      "size": 8594070
+    },
+    {
       "name": "Golden Axe II (World) (Beta).zip",
       "path": "roms/Golden%20Axe%20II%20%28World%29%20%28Beta%29.zip",
       "system": "segaMD",
       "size": 332606
+    },
+    {
+      "name": "goldnaxe.zip",
+      "path": "roms/goldnaxe.zip",
+      "system": null,
+      "size": 1164058
     },
     {
       "name": "Indiana Jones and the Last Crusade (USA).zip",
@@ -224,6 +266,12 @@
       "size": 10916172
     },
     {
+      "name": "Metal Slug (1996).zip",
+      "path": "roms/mslug.zip",
+      "system": "arcade",
+      "size": 14758164
+    },
+    {
       "name": "NBA Jam (USA).zip",
       "path": "roms/NBA%20Jam%20%28USA%29.zip",
       "system": "snes",
@@ -242,6 +290,12 @@
       "size": 523129
     },
     {
+      "name": "outrun.zip",
+      "path": "roms/outrun.zip",
+      "system": null,
+      "size": 877001
+    },
+    {
       "name": "Prince of Persia 2 - The Shadow and the Flame (Europe) (Proto).zip",
       "path": "roms/Prince%20of%20Persia%202%20-%20The%20Shadow%20and%20the%20Flame%20%28Europe%29%20%28Proto%29.zip",
       "system": "segaMD",
@@ -252,6 +306,12 @@
       "path": "roms/Punch-Out%20%28USA%29.zip",
       "system": "nes",
       "size": 132764
+    },
+    {
+      "name": "The Punisher (1993).zip",
+      "path": "roms/punisher.zip",
+      "system": "arcade",
+      "size": 4045069
     },
     {
       "name": "Quake 64 (USA).zip",
@@ -290,6 +350,12 @@
       "size": 2735503
     },
     {
+      "name": "Snow Bros. (1990).zip",
+      "path": "roms/snowbros.zip",
+      "system": "arcade",
+      "size": 289681
+    },
+    {
       "name": "Sonic & Knuckles + Sonic The Hedgehog 3 (World).zip",
       "path": "roms/Sonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%203%20%28World%29.zip",
       "system": "segaMD",
@@ -318,6 +384,12 @@
       "path": "roms/Spider-Man%20%28USA%29.zip",
       "system": "n64",
       "size": 28930614
+    },
+    {
+      "name": "ssridersubc.zip",
+      "path": "roms/ssridersubc.zip",
+      "system": null,
+      "size": 2475584
     },
     {
       "name": "Street Fighter Alpha 2 (USA).zip",
@@ -410,6 +482,12 @@
       "size": 804800
     },
     {
+      "name": "Teenage Mutant Ninja Turtles (1989).zip",
+      "path": "roms/tmnt.zip",
+      "system": "arcade",
+      "size": 1847120
+    },
+    {
       "name": "Top Gear (USA).zip",
       "path": "roms/Top%20Gear%20%28USA%29.zip",
       "system": "snes",
@@ -444,6 +522,12 @@
       "path": "roms/Wave%20Race%2064%20%28USA%29%20%28Rev%20A%29.zip",
       "system": "n64",
       "size": 6185620
+    },
+    {
+      "name": "wboy.zip",
+      "path": "roms/wboy.zip",
+      "system": null,
+      "size": 90372
     }
   ]
 }
