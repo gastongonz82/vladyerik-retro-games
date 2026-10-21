@@ -284,9 +284,9 @@
       "size": 676890
     },
     {
-      "name": "simpsons2p2.zip",
+      "name": "The Simpsons Arcade (1991)",
       "path": "roms/simpsons2p2.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2735503
     },
     {
