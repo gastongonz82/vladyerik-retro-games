@@ -396,6 +396,54 @@
       "path": "roms/Superman%20-%20The%20Man%20of%20Steel%20%28Europe%29.zip",
       "system": "segaGG",
       "size": 90023
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).zip",
+      "path": "roms/Teenage%20Mutant%20Ninja%20Turtles%20IV%20-%20Turtles%20in%20Time%20%28USA%29.zip",
+      "system": "snes",
+      "size": 804800
+    },
+    {
+      "name": "Top Gear (USA).zip",
+      "path": "roms/Top%20Gear%20%28USA%29.zip",
+      "system": "snes",
+      "size": 312376
+    },
+    {
+      "name": "Top Gear 2 (USA).zip",
+      "path": "roms/Top%20Gear%202%20%28USA%29.zip",
+      "system": "segaMD",
+      "size": 444945
+    },
+    {
+      "name": "Toy Story 2 (USA).zip",
+      "path": "roms/Toy%20Story%202%20%28USA%29.zip",
+      "system": "n64",
+      "size": 10087487
+    },
+    {
+      "name": "Ultimate Mortal Kombat 3 (USA).zip",
+      "path": "roms/Ultimate%20Mortal%20Kombat%203%20%28USA%29.zip",
+      "system": "snes",
+      "size": 3446384
+    },
+    {
+      "name": "Vigilante 8 (Europe).zip",
+      "path": "roms/Vigilante%208%20%28Europe%29.zip",
+      "system": "n64",
+      "size": 7476864
+    },
+    {
+      "name": "Wave Race 64 (USA) (Rev A).zip",
+      "path": "roms/Wave%20Race%2064%20%28USA%29%20%28Rev%20A%29.zip",
+      "system": "n64",
+      "size": 6185620
+    },
+    {
+      "name": "X-Men vs. Street Fighter (World) (Unl).zip",
+      "path": "roms/X-Men%20vs.%20Street%20Fighter%20%28World%29%20%28Unl%29.zip",
+      "system": "snes",
+      "size": 1135145
     }
   ]
 }
