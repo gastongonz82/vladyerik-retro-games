@@ -8,6 +8,12 @@
       "size": 324038
     },
     {
+      "name": "39in1.zip",
+      "path": "roms/39in1.zip",
+      "system": null,
+      "size": 2474365
+    },
+    {
       "name": "72-in-1 [p1].zip",
       "path": "roms/72-in-1%20%5Bp1%5D.zip",
       "system": "nes",
@@ -32,16 +38,40 @@
       "size": 1174804
     },
     {
+      "name": "arkanoid.zip",
+      "path": "roms/arkanoid.zip",
+      "system": null,
+      "size": 72384
+    },
+    {
+      "name": "astdelux.zip",
+      "path": "roms/astdelux.zip",
+      "system": null,
+      "size": 10848
+    },
+    {
       "name": "Batman Returns (USA).zip",
       "path": "roms/Batman%20Returns%20%28USA%29.zip",
       "system": "snes",
       "size": 761400
     },
     {
+      "name": "calspeed.zip",
+      "path": "roms/calspeed.zip",
+      "system": null,
+      "size": 252917
+    },
+    {
       "name": "Contra III - The Alien Wars (USA).zip",
       "path": "roms/Contra%20III%20-%20The%20Alien%20Wars%20%28USA%29.zip",
       "system": "snes",
       "size": 751582
+    },
+    {
+      "name": "contra.zip",
+      "path": "roms/contra.zip",
+      "system": null,
+      "size": 388410
     },
     {
       "name": "Cruis'n USA (USA) (Rev A).zip",
@@ -54,6 +84,12 @@
       "path": "roms/ddragon2.zip",
       "system": "arcade",
       "size": 748422
+    },
+    {
+      "name": "ddragon3j.zip",
+      "path": "roms/ddragon3j.zip",
+      "system": null,
+      "size": 2073134
     },
     {
       "name": "Diddy Kong Racing (USA) (En,Fr) (Rev A).zip",
@@ -164,6 +200,12 @@
       "size": 8594070
     },
     {
+      "name": "galaga.zip",
+      "path": "roms/galaga.zip",
+      "system": null,
+      "size": 24396
+    },
+    {
       "name": "Golden Axe II (World) (Beta).zip",
       "path": "roms/Golden%20Axe%20II%20%28World%29%20%28Beta%29.zip",
       "system": "segaMD",
@@ -198,6 +240,18 @@
       "path": "roms/Jungle%20Book%2C%20The%20%28USA%29.zip",
       "system": "segaGG",
       "size": 151277
+    },
+    {
+      "name": "Knights of the Round (1991).zip",
+      "path": "roms/knights.zip",
+      "system": "arcade",
+      "size": 2355204
+    },
+    {
+      "name": "kodr1.zip",
+      "path": "roms/kodr1.zip",
+      "system": null,
+      "size": 2593589
     },
     {
       "name": "Mario Kart 64 (E) (V1.1) [!].zip",
@@ -302,6 +356,12 @@
       "size": 877001
     },
     {
+      "name": "pacman.zip",
+      "path": "roms/pacman.zip",
+      "system": null,
+      "size": 28432
+    },
+    {
       "name": "Prince of Persia 2 - The Shadow and the Flame (Europe) (Proto).zip",
       "path": "roms/Prince%20of%20Persia%202%20-%20The%20Shadow%20and%20the%20Flame%20%28Europe%29%20%28Proto%29.zip",
       "system": "segaMD",
@@ -342,6 +402,12 @@
       "path": "roms/San%20Francisco%20Rush%20-%20Extreme%20Racing%20%28USA%29%20%28En%2CFr%2CDe%29.zip",
       "system": "n64",
       "size": 7955393
+    },
+    {
+      "name": "sfiii3.zip",
+      "path": "roms/sfiii3.zip",
+      "system": null,
+      "size": 132335
     },
     {
       "name": "Simpsons, The - Bart's Nightmare (USA).zip",
@@ -492,6 +558,12 @@
       "path": "roms/tmnt.zip",
       "system": "arcade",
       "size": 1847120
+    },
+    {
+      "name": "tmnt2pj.zip",
+      "path": "roms/tmnt2pj.zip",
+      "system": null,
+      "size": 2024793
     },
     {
       "name": "Top Gear (USA).zip",
