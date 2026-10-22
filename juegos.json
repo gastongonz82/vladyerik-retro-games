@@ -74,16 +74,16 @@
       "size": 5167868
     },
     {
-      "name": "Contra Arcade (1987).zip",
-      "path": "roms/contra.zip",
-      "system": "arcade",
-      "size": 388410
-    },
-    {
       "name": "Contra III - The Alien Wars (USA).zip",
       "path": "roms/Contra%20III%20-%20The%20Alien%20Wars%20%28USA%29.zip",
       "system": "snes",
       "size": 751582
+    },
+    {
+      "name": "Contra Arcade (1987).zip",
+      "path": "roms/contra.zip",
+      "system": "arcade",
+      "size": 388410
     },
     {
       "name": "Cruis'n USA (USA) (Rev A).zip",
@@ -386,16 +386,16 @@
       "size": 8178384
     },
     {
-      "name": "Out Run (1986).zip",
-      "path": "roms/outrun.zip",
-      "system": "arcade",
-      "size": 877001
-    },
-    {
       "name": "OutRun (Japan).zip",
       "path": "roms/OutRun%20%28Japan%29.zip",
       "system": "segaMD",
       "size": 523129
+    },
+    {
+      "name": "Out Run (1986).zip",
+      "path": "roms/outrun.zip",
+      "system": "arcade",
+      "size": 877001
     },
     {
       "name": "Pac-Man (1980).zip",
@@ -456,12 +456,6 @@
       "path": "roms/sf2.zip",
       "system": "arcade",
       "size": 3551819
-    },
-    {
-      "name": "Street Fighter Alpha 3 (1998).zip",
-      "path": "roms/sfa3.zip",
-      "system": "arcade",
-      "size": 23352106
     },
     {
       "name": "Street Fighter Alpha 3 (1998).zip",
