@@ -326,6 +326,12 @@
       "size": 20645007
     },
     {
+      "name": "mk4.zip",
+      "path": "roms/mk4.zip",
+      "system": null,
+      "size": 21717512
+    },
+    {
       "name": "Mortal Kombat 4 (Europe).zip",
       "path": "roms/Mortal%20Kombat%204%20%28Europe%29.zip",
       "system": "n64",
