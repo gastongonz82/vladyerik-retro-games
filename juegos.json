@@ -8,9 +8,9 @@
       "size": 324038
     },
     {
-      "name": "39in1.zip",
+      "name": "39-in-1 Arcade Multigame.zip",
       "path": "roms/39in1.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2474365
     },
     {
@@ -38,21 +38,21 @@
       "size": 1174804
     },
     {
-      "name": "arkanoid.zip",
+      "name": "Arkanoid (1986).zip",
       "path": "roms/arkanoid.zip",
-      "system": null,
+      "system": "arcade",
       "size": 72384
     },
     {
-      "name": "astdelux.zip",
+      "name": "Asteroids Deluxe (1980).zip",
       "path": "roms/astdelux.zip",
-      "system": null,
+      "system": "arcade",
       "size": 10848
     },
     {
-      "name": "asterixeac.zip",
+      "name": "Asterix (1992).zip",
       "path": "roms/asterixeac.zip",
-      "system": null,
+      "system": "arcade",
       "size": 3802816
     },
     {
@@ -62,40 +62,40 @@
       "size": 761400
     },
     {
-      "name": "bublbob2.zip",
+      "name": "Bubble Symphony (1994).zip",
       "path": "roms/bublbob2.zip",
-      "system": null,
+      "system": "arcade",
       "size": 4907296
     },
     {
-      "name": "calspeed.zip",
+      "name": "California Speed (1998).zip",
       "path": "roms/calspeed.zip",
-      "system": null,
+      "system": "arcade",
       "size": 252917
     },
     {
-      "name": "captavenu.zip",
+      "name": "Captain America and The Avengers (1991).zip",
       "path": "roms/captavenu.zip",
-      "system": null,
+      "system": "arcade",
       "size": 7601456
     },
     {
-      "name": "captcommb.zip",
+      "name": "Captain Commando (1991).zip",
       "path": "roms/captcommb.zip",
-      "system": null,
+      "system": "arcade",
       "size": 5167868
+    },
+    {
+      "name": "Contra Arcade (1987).zip",
+      "path": "roms/contra.zip",
+      "system": "arcade",
+      "size": 388410
     },
     {
       "name": "Contra III - The Alien Wars (USA).zip",
       "path": "roms/Contra%20III%20-%20The%20Alien%20Wars%20%28USA%29.zip",
       "system": "snes",
       "size": 751582
-    },
-    {
-      "name": "contra.zip",
-      "path": "roms/contra.zip",
-      "system": null,
-      "size": 388410
     },
     {
       "name": "Cruis'n USA (USA) (Rev A).zip",
@@ -110,9 +110,9 @@
       "size": 748422
     },
     {
-      "name": "ddragon3j.zip",
+      "name": "Double Dragon 3: The Rosetta Stone (1990).zip",
       "path": "roms/ddragon3j.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2073134
     },
     {
@@ -182,9 +182,9 @@
       "size": 7994760
     },
     {
-      "name": "fatfursp.zip",
+      "name": "Fatal Fury Special (1993).zip",
       "path": "roms/fatfursp.zip",
-      "system": null,
+      "system": "arcade",
       "size": 12887320
     },
     {
@@ -230,9 +230,9 @@
       "size": 8594070
     },
     {
-      "name": "galaga.zip",
+      "name": "Galaga (1981).zip",
       "path": "roms/galaga.zip",
-      "system": null,
+      "system": "arcade",
       "size": 24396
     },
     {
@@ -278,9 +278,9 @@
       "size": 2355204
     },
     {
-      "name": "kodr1.zip",
+      "name": "The King of Dragons (1991).zip",
       "path": "roms/kodr1.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2593589
     },
     {
@@ -326,9 +326,9 @@
       "size": 20645007
     },
     {
-      "name": "mk4.zip",
+      "name": "Mortal Kombat 4 (1997).zip",
       "path": "roms/mk4.zip",
-      "system": null,
+      "system": "arcade",
       "size": 21717512
     },
     {
@@ -362,9 +362,9 @@
       "size": 20101792
     },
     {
-      "name": "mshvsf.zip",
+      "name": "Marvel Super Heroes vs. Street Fighter (1997).zip",
       "path": "roms/mshvsf.zip",
-      "system": null,
+      "system": "arcade",
       "size": 23127379
     },
     {
@@ -392,9 +392,9 @@
       "size": 1264620
     },
     {
-      "name": "nbajam.zip",
+      "name": "NBA Jam (1993).zip",
       "path": "roms/nbajam.zip",
-      "system": null,
+      "system": "arcade",
       "size": 6352651
     },
     {
@@ -404,21 +404,21 @@
       "size": 8178384
     },
     {
-      "name": "OutRun (Japan).zip",
-      "path": "roms/OutRun%20%28Japan%29.zip",
-      "system": "segaMD",
-      "size": 523129
-    },
-    {
       "name": "Out Run (1986).zip",
       "path": "roms/outrun.zip",
       "system": "arcade",
       "size": 877001
     },
     {
-      "name": "pacman.zip",
+      "name": "OutRun (Japan).zip",
+      "path": "roms/OutRun%20%28Japan%29.zip",
+      "system": "segaMD",
+      "size": 523129
+    },
+    {
+      "name": "Pac-Man (1980).zip",
       "path": "roms/pacman.zip",
-      "system": null,
+      "system": "arcade",
       "size": 28432
     },
     {
@@ -458,9 +458,9 @@
       "size": 19206461
     },
     {
-      "name": "robocop2u.zip",
+      "name": "RoboCop 2 (1991).zip",
       "path": "roms/robocop2u.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2809315
     },
     {
@@ -470,21 +470,27 @@
       "size": 7955393
     },
     {
-      "name": "sf2.zip",
+      "name": "Street Fighter II: The World Warrior (1991).zip",
       "path": "roms/sf2.zip",
-      "system": null,
+      "system": "arcade",
       "size": 3551819
     },
     {
-      "name": "sfa3.zip",
+      "name": "Street Fighter Alpha 3 (1998).zip",
       "path": "roms/sfa3.zip",
-      "system": null,
+      "system": "arcade",
       "size": 23352106
     },
     {
-      "name": "sfiii3.zip",
+      "name": "Street Fighter Alpha 3 (1998).zip",
+      "path": "roms/sfa3.zip",
+      "system": "arcade",
+      "size": 23352106
+    },
+    {
+      "name": "Street Fighter III: 3rd Strike (1999).zip",
       "path": "roms/sfiii3.zip",
-      "system": null,
+      "system": "arcade",
       "size": 132335
     },
     {
@@ -638,9 +644,9 @@
       "size": 1847120
     },
     {
-      "name": "tmnt2pj.zip",
+      "name": "Teenage Mutant Ninja Turtles: Turtles in Time (1991).zip",
       "path": "roms/tmnt2pj.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2024793
     },
     {
@@ -692,9 +698,9 @@
       "size": 3946038
     },
     {
-      "name": "wwfmania.zip",
+      "name": "WWF WrestleMania: The Arcade Game (1995).zip",
       "path": "roms/wwfmania.zip",
-      "system": null,
+      "system": "arcade",
       "size": 18713371
     },
     {
