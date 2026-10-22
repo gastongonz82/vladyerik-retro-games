@@ -74,6 +74,18 @@
       "size": 252917
     },
     {
+      "name": "captavenu.zip",
+      "path": "roms/captavenu.zip",
+      "system": null,
+      "size": 7601456
+    },
+    {
+      "name": "captcommb.zip",
+      "path": "roms/captcommb.zip",
+      "system": null,
+      "size": 5167868
+    },
+    {
       "name": "Contra III - The Alien Wars (USA).zip",
       "path": "roms/Contra%20III%20-%20The%20Alien%20Wars%20%28USA%29.zip",
       "system": "snes",
@@ -290,6 +302,12 @@
       "size": 1282159
     },
     {
+      "name": "Mortal Kombat Arcade (1992).zip",
+      "path": "roms/mk.zip",
+      "system": "arcade",
+      "size": 5493469
+    },
+    {
       "name": "Mortal Kombat 3 Arcade (1995).zip",
       "path": "roms/mk3.zip",
       "system": "arcade",
@@ -348,6 +366,12 @@
       "path": "roms/NBA%20Jam%20%28USA%29.zip",
       "system": "snes",
       "size": 1264620
+    },
+    {
+      "name": "nbajam.zip",
+      "path": "roms/nbajam.zip",
+      "system": null,
+      "size": 6352651
     },
     {
       "name": "Off Road Challenge (USA).zip",
