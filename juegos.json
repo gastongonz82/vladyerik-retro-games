@@ -8,12 +8,6 @@
       "size": 324038
     },
     {
-      "name": "39-in-1 Arcade Multigame.zip",
-      "path": "roms/39in1.zip",
-      "system": "arcade",
-      "size": 2474365
-    },
-    {
       "name": "72-in-1 [p1].zip",
       "path": "roms/72-in-1%20%5Bp1%5D.zip",
       "system": "nes",
@@ -66,12 +60,6 @@
       "path": "roms/bublbob2.zip",
       "system": "arcade",
       "size": 4907296
-    },
-    {
-      "name": "California Speed (1998).zip",
-      "path": "roms/calspeed.zip",
-      "system": "arcade",
-      "size": 252917
     },
     {
       "name": "Captain America and The Avengers (1991).zip",
@@ -326,12 +314,6 @@
       "size": 20645007
     },
     {
-      "name": "Mortal Kombat 4 (1997).zip",
-      "path": "roms/mk4.zip",
-      "system": "arcade",
-      "size": 21717512
-    },
-    {
       "name": "Mortal Kombat 4 (Europe).zip",
       "path": "roms/Mortal%20Kombat%204%20%28Europe%29.zip",
       "system": "n64",
@@ -486,12 +468,6 @@
       "path": "roms/sfa3.zip",
       "system": "arcade",
       "size": 23352106
-    },
-    {
-      "name": "Street Fighter III: 3rd Strike (1999).zip",
-      "path": "roms/sfiii3.zip",
-      "system": "arcade",
-      "size": 132335
     },
     {
       "name": "Simpsons, The - Bart's Nightmare (USA).zip",
