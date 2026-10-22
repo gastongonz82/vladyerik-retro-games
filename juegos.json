@@ -50,10 +50,22 @@
       "size": 10848
     },
     {
+      "name": "asterixeac.zip",
+      "path": "roms/asterixeac.zip",
+      "system": null,
+      "size": 3802816
+    },
+    {
       "name": "Batman Returns (USA).zip",
       "path": "roms/Batman%20Returns%20%28USA%29.zip",
       "system": "snes",
       "size": 761400
+    },
+    {
+      "name": "bublbob2.zip",
+      "path": "roms/bublbob2.zip",
+      "system": null,
+      "size": 4907296
     },
     {
       "name": "calspeed.zip",
@@ -398,10 +410,22 @@
       "size": 19206461
     },
     {
+      "name": "robocop2u.zip",
+      "path": "roms/robocop2u.zip",
+      "system": null,
+      "size": 2809315
+    },
+    {
       "name": "San Francisco Rush - Extreme Racing (USA) (En,Fr,De).zip",
       "path": "roms/San%20Francisco%20Rush%20-%20Extreme%20Racing%20%28USA%29%20%28En%2CFr%2CDe%29.zip",
       "system": "n64",
       "size": 7955393
+    },
+    {
+      "name": "sf2.zip",
+      "path": "roms/sf2.zip",
+      "system": null,
+      "size": 3551819
     },
     {
       "name": "sfiii3.zip",
@@ -606,6 +630,12 @@
       "path": "roms/wboy.zip",
       "system": "arcade",
       "size": 90372
+    },
+    {
+      "name": "Warriors of Fate (1992).zip",
+      "path": "roms/wof.zip",
+      "system": "arcade",
+      "size": 3946038
     },
     {
       "name": "X-Men vs. Street Fighter (1996).zip",
