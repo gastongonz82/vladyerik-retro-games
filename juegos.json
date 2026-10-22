@@ -290,16 +290,16 @@
       "size": 8178384
     },
     {
-      "name": "Out Run (1986).zip",
-      "path": "roms/outrun.zip",
-      "system": "arcade",
-      "size": 877001
-    },
-    {
       "name": "OutRun (Japan).zip",
       "path": "roms/OutRun%20%28Japan%29.zip",
       "system": "segaMD",
       "size": 523129
+    },
+    {
+      "name": "Out Run (1986).zip",
+      "path": "roms/outrun.zip",
+      "system": "arcade",
+      "size": 877001
     },
     {
       "name": "Prince of Persia 2 - The Shadow and the Flame (Europe) (Proto).zip",
