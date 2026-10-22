@@ -11,6 +11,7 @@ systems = {"nes":"nes","fds":"nes","sfc":"snes","smc":"snes","fig":"snes",
 "md":"segaMD","gen":"segaMD","smd":"segaMD","gb":"gb","gbc":"gbc",
 "gba":"gba","sms":"segaMS","gg":"segaGG","z64":"n64","n64":"n64","v64":"n64"}
 allowed = set(systems) | {"zip","bin","rom"}
+excluded_roms = {"avspu.zip", "bloodbro.zip", "crusnusa.zip"}
 # MAME/FBNeo arcade set identifiers. Extend this map as new games are added.
 arcade_names = {
     "simpsons2p2": "The Simpsons Arcade (1991)",
@@ -58,7 +59,7 @@ if catalog_path.exists():
         previous = {}
 games = []
 for path in sorted(roms.iterdir(),key=lambda p:p.name.casefold()):
-    if not path.is_file() or path.suffix.lower().lstrip(".") not in allowed or path.name.lower() in {"readme.md"}:
+    if not path.is_file() or path.suffix.lower().lstrip(".") not in allowed or path.name.lower() in ({"readme.md"} | excluded_roms):
         continue
     extension = path.suffix.lower().lstrip(".")
     if extension == "zip":
