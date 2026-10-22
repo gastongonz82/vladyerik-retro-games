@@ -314,6 +314,12 @@
       "size": 5493469
     },
     {
+      "name": "Mortal Kombat II Arcade (1993).zip",
+      "path": "roms/mk2.zip",
+      "system": "arcade",
+      "size": 13633708
+    },
+    {
       "name": "Mortal Kombat 3 Arcade (1995).zip",
       "path": "roms/mk3.zip",
       "system": "arcade",
@@ -666,6 +672,12 @@
       "path": "roms/wof.zip",
       "system": "arcade",
       "size": 3946038
+    },
+    {
+      "name": "wwfmania.zip",
+      "path": "roms/wwfmania.zip",
+      "system": null,
+      "size": 18713371
     },
     {
       "name": "X-Men vs. Street Fighter (1996).zip",
