@@ -182,6 +182,12 @@
       "size": 7994760
     },
     {
+      "name": "fatfursp.zip",
+      "path": "roms/fatfursp.zip",
+      "system": null,
+      "size": 12887320
+    },
+    {
       "name": "Final Fight (1989).zip",
       "path": "roms/ffightub.zip",
       "system": "arcade",
