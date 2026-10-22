@@ -32,22 +32,10 @@
       "size": 1174804
     },
     {
-      "name": "Alien vs. Predator (1994).zip",
-      "path": "roms/avspu.zip",
-      "system": "arcade",
-      "size": 11074067
-    },
-    {
       "name": "Batman Returns (USA).zip",
       "path": "roms/Batman%20Returns%20%28USA%29.zip",
       "system": "snes",
       "size": 761400
-    },
-    {
-      "name": "Blood Bros. (1990).zip",
-      "path": "roms/bloodbro.zip",
-      "system": "arcade",
-      "size": 1150008
     },
     {
       "name": "Contra III - The Alien Wars (USA).zip",
@@ -60,12 +48,6 @@
       "path": "roms/Cruis%27n%20USA%20%28USA%29%20%28Rev%20A%29.zip",
       "system": "n64",
       "size": 4682461
-    },
-    {
-      "name": "Cruis'n USA Arcade (1994).zip",
-      "path": "roms/crusnusa.zip",
-      "system": "arcade",
-      "size": 11278430
     },
     {
       "name": "Double Dragon II: The Revenge (1988).zip",
