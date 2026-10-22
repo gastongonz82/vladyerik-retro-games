@@ -11,7 +11,7 @@ systems = {"nes":"nes","fds":"nes","sfc":"snes","smc":"snes","fig":"snes",
 "md":"segaMD","gen":"segaMD","smd":"segaMD","gb":"gb","gbc":"gbc",
 "gba":"gba","sms":"segaMS","gg":"segaGG","z64":"n64","n64":"n64","v64":"n64"}
 allowed = set(systems) | {"zip","bin","rom"}
-excluded_roms = {"avspu.zip", "bloodbro.zip", "crusnusa.zip"}
+excluded_roms = {"avspu.zip", "bloodbro.zip", "crusnusa.zip", "mk4.zip", "39in1.zip", "calspeed.zip", "sfiii3.zip"}
 # MAME/FBNeo arcade set identifiers. Extend this map as new games are added.
 arcade_names = {
     "39in1": "39-in-1 Arcade Multigame",
