@@ -8,6 +8,12 @@
       "size": 324038
     },
     {
+      "name": "1941j.zip",
+      "path": "roms/1941j.zip",
+      "system": null,
+      "size": 2643333
+    },
+    {
       "name": "72-in-1 [p1].zip",
       "path": "roms/72-in-1%20%5Bp1%5D.zip",
       "system": "nes",
@@ -102,6 +108,12 @@
       "path": "roms/ddragon3j.zip",
       "system": "arcade",
       "size": 2073134
+    },
+    {
+      "name": "ddsom.zip",
+      "path": "roms/ddsom.zip",
+      "system": null,
+      "size": 16977848
     },
     {
       "name": "Diddy Kong Racing (USA) (En,Fr) (Rev A).zip",
@@ -224,6 +236,12 @@
       "size": 24396
     },
     {
+      "name": "gngt.zip",
+      "path": "roms/gngt.zip",
+      "system": null,
+      "size": 206073
+    },
+    {
       "name": "Golden Axe II (World) (Beta).zip",
       "path": "roms/Golden%20Axe%20II%20%28World%29%20%28Beta%29.zip",
       "system": "segaMD",
@@ -288,6 +306,12 @@
       "path": "roms/Marvel%20Super%20Heroes%20-%20War%20of%20the%20Gems%20%28USA%29.zip",
       "system": "snes",
       "size": 1310247
+    },
+    {
+      "name": "megaman2.zip",
+      "path": "roms/megaman2.zip",
+      "system": null,
+      "size": 7406267
     },
     {
       "name": "Mickey Mania - The Timeless Adventures of Mickey Mouse (Europe).zip",
@@ -366,6 +390,12 @@
       "path": "roms/mvscu.zip",
       "system": "arcade",
       "size": 23581770
+    },
+    {
+      "name": "mwalk.zip",
+      "path": "roms/mwalk.zip",
+      "system": null,
+      "size": 1942192
     },
     {
       "name": "NBA Jam (USA).zip",
@@ -618,6 +648,12 @@
       "path": "roms/tmnt2pj.zip",
       "system": "arcade",
       "size": 2024793
+    },
+    {
+      "name": "toki.zip",
+      "path": "roms/toki.zip",
+      "system": null,
+      "size": 1057570
     },
     {
       "name": "Top Gear (USA).zip",
