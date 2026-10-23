@@ -14,6 +14,13 @@ allowed = set(systems) | {"zip","bin","rom"}
 excluded_roms = {"avspu.zip", "bloodbro.zip", "crusnusa.zip", "mk4.zip", "39in1.zip", "calspeed.zip", "sfiii3.zip"}
 # MAME/FBNeo arcade set identifiers. Extend this map as new games are added.
 arcade_names = {
+    "1941j": "1941: Counter Attack (1990)",
+    "1944j": "1944: The Loop Master (2000)",
+    "ddsom": "Dungeons & Dragons: Shadow over Mystara (1996)",
+    "gngt": "Ghosts ’n Goblins (1985)",
+    "megaman2": "Mega Man 2: The Power Fighters (1996)",
+    "mwalk": "Michael Jackson’s Moonwalker (1990)",
+    "toki": "Toki (1989)",
     "39in1": "39-in-1 Arcade Multigame",
     "arkanoid": "Arkanoid (1986)",
     "astdelux": "Asteroids Deluxe (1980)",
