@@ -8,15 +8,15 @@
       "size": 324038
     },
     {
-      "name": "1941j.zip",
+      "name": "1941: Counter Attack (1990).zip",
       "path": "roms/1941j.zip",
-      "system": null,
+      "system": "arcade",
       "size": 2643333
     },
     {
-      "name": "1944j.zip",
+      "name": "1944: The Loop Master (2000).zip",
       "path": "roms/1944j.zip",
-      "system": null,
+      "system": "arcade",
       "size": 15910786
     },
     {
@@ -116,9 +116,9 @@
       "size": 2073134
     },
     {
-      "name": "ddsom.zip",
+      "name": "Dungeons & Dragons: Shadow over Mystara (1996).zip",
       "path": "roms/ddsom.zip",
-      "system": null,
+      "system": "arcade",
       "size": 16977848
     },
     {
@@ -242,9 +242,9 @@
       "size": 24396
     },
     {
-      "name": "gngt.zip",
+      "name": "Ghosts ’n Goblins (1985).zip",
       "path": "roms/gngt.zip",
-      "system": null,
+      "system": "arcade",
       "size": 206073
     },
     {
@@ -314,9 +314,9 @@
       "size": 1310247
     },
     {
-      "name": "megaman2.zip",
+      "name": "Mega Man 2: The Power Fighters (1996).zip",
       "path": "roms/megaman2.zip",
-      "system": null,
+      "system": "arcade",
       "size": 7406267
     },
     {
@@ -398,9 +398,9 @@
       "size": 23581770
     },
     {
-      "name": "mwalk.zip",
+      "name": "Michael Jackson’s Moonwalker (1990).zip",
       "path": "roms/mwalk.zip",
-      "system": null,
+      "system": "arcade",
       "size": 1942192
     },
     {
@@ -656,9 +656,9 @@
       "size": 2024793
     },
     {
-      "name": "toki.zip",
+      "name": "Toki (1989).zip",
       "path": "roms/toki.zip",
-      "system": null,
+      "system": "arcade",
       "size": 1057570
     },
     {
