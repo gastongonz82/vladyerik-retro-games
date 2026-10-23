@@ -14,6 +14,18 @@
       "size": 2643333
     },
     {
+      "name": "1942.zip",
+      "path": "roms/1942.zip",
+      "system": null,
+      "size": 106788
+    },
+    {
+      "name": "1942b.zip",
+      "path": "roms/1942b.zip",
+      "system": null,
+      "size": 149815
+    },
+    {
       "name": "1944: The Loop Master (2000).zip",
       "path": "roms/1944j.zip",
       "system": "arcade",
@@ -68,10 +80,22 @@
       "size": 761400
     },
     {
+      "name": "bombjack.zip",
+      "path": "roms/bombjack.zip",
+      "system": null,
+      "size": 56902
+    },
+    {
       "name": "Bubble Symphony (1994).zip",
       "path": "roms/bublbob2.zip",
       "system": "arcade",
       "size": 4907296
+    },
+    {
+      "name": "cadash.zip",
+      "path": "roms/cadash.zip",
+      "system": null,
+      "size": 744387
     },
     {
       "name": "Captain America and The Avengers (1991).zip",
@@ -132,6 +156,12 @@
       "path": "roms/dino.zip",
       "system": "arcade",
       "size": 4118661
+    },
+    {
+      "name": "dkong.zip",
+      "path": "roms/dkong.zip",
+      "system": null,
+      "size": 22302
     },
     {
       "name": "Donkey Kong 64 (U) [!].zip",
@@ -228,6 +258,12 @@
       "path": "roms/Flintstones%2C%20The%20%28USA%29.zip",
       "system": "segaMD",
       "size": 326754
+    },
+    {
+      "name": "frogger.zip",
+      "path": "roms/frogger.zip",
+      "system": null,
+      "size": 16011
     },
     {
       "name": "Golden Axe: The Revenge of Death Adder (1992).zip",
@@ -440,6 +476,18 @@
       "size": 28432
     },
     {
+      "name": "pang.zip",
+      "path": "roms/pang.zip",
+      "system": null,
+      "size": 417534
+    },
+    {
+      "name": "pbobblen.zip",
+      "path": "roms/pbobblen.zip",
+      "system": null,
+      "size": 5264245
+    },
+    {
       "name": "Prince of Persia 2 - The Shadow and the Flame (Europe) (Proto).zip",
       "path": "roms/Prince%20of%20Persia%202%20-%20The%20Shadow%20and%20the%20Flame%20%28Europe%29%20%28Proto%29.zip",
       "system": "segaMD",
@@ -458,6 +506,12 @@
       "size": 4045069
     },
     {
+      "name": "Puzzle Bobble - Bust-A-Move (Europe).zip",
+      "path": "roms/Puzzle%20Bobble%20-%20Bust-A-Move%20%28Europe%29.zip",
+      "system": "snes",
+      "size": 276512
+    },
+    {
       "name": "Quake 64 (USA).zip",
       "path": "roms/Quake%2064%20%28USA%29.zip",
       "system": "n64",
@@ -468,6 +522,12 @@
       "path": "roms/Rally%20Challenge%202000%20%28USA%29.zip",
       "system": "n64",
       "size": 9953781
+    },
+    {
+      "name": "rastan.zip",
+      "path": "roms/rastan.zip",
+      "system": null,
+      "size": 523814
     },
     {
       "name": "Road Rash 64 (Europe).zip",
