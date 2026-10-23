@@ -14,15 +14,15 @@
       "size": 2643333
     },
     {
-      "name": "1942.zip",
+      "name": "1942 (1984).zip",
       "path": "roms/1942.zip",
-      "system": null,
+      "system": "arcade",
       "size": 106788
     },
     {
-      "name": "1942b.zip",
+      "name": "1942 (Bootleg).zip",
       "path": "roms/1942b.zip",
-      "system": null,
+      "system": "arcade",
       "size": 149815
     },
     {
@@ -80,9 +80,9 @@
       "size": 761400
     },
     {
-      "name": "bombjack.zip",
+      "name": "Bomb Jack (1984).zip",
       "path": "roms/bombjack.zip",
-      "system": null,
+      "system": "arcade",
       "size": 56902
     },
     {
@@ -92,9 +92,9 @@
       "size": 4907296
     },
     {
-      "name": "cadash.zip",
+      "name": "Cadash (1989).zip",
       "path": "roms/cadash.zip",
-      "system": null,
+      "system": "arcade",
       "size": 744387
     },
     {
@@ -158,9 +158,9 @@
       "size": 4118661
     },
     {
-      "name": "dkong.zip",
+      "name": "Donkey Kong (1981).zip",
       "path": "roms/dkong.zip",
-      "system": null,
+      "system": "arcade",
       "size": 22302
     },
     {
@@ -260,9 +260,9 @@
       "size": 326754
     },
     {
-      "name": "frogger.zip",
+      "name": "Frogger (1981).zip",
       "path": "roms/frogger.zip",
-      "system": null,
+      "system": "arcade",
       "size": 16011
     },
     {
@@ -332,9 +332,9 @@
       "size": 2593589
     },
     {
-      "name": "kof98.zip",
+      "name": "The King of Fighters '98 (1998).zip",
       "path": "roms/kof98.zip",
-      "system": null,
+      "system": "arcade",
       "size": 42038587
     },
     {
@@ -434,9 +434,9 @@
       "size": 19066645
     },
     {
-      "name": "mslug3.zip",
+      "name": "Metal Slug 3 (2000).zip",
       "path": "roms/mslug3.zip",
-      "system": null,
+      "system": "arcade",
       "size": 82049588
     },
     {
@@ -488,15 +488,15 @@
       "size": 28432
     },
     {
-      "name": "pang.zip",
+      "name": "Pang (1989).zip",
       "path": "roms/pang.zip",
-      "system": null,
+      "system": "arcade",
       "size": 417534
     },
     {
-      "name": "pbobblen.zip",
+      "name": "Puzzle Bobble (1994).zip",
       "path": "roms/pbobblen.zip",
-      "system": null,
+      "system": "arcade",
       "size": 5264245
     },
     {
@@ -536,9 +536,9 @@
       "size": 9953781
     },
     {
-      "name": "rastan.zip",
+      "name": "Rastan (1987).zip",
       "path": "roms/rastan.zip",
-      "system": null,
+      "system": "arcade",
       "size": 523814
     },
     {
