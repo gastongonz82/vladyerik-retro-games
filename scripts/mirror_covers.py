@@ -57,11 +57,35 @@ arcade_names.update({
 })
 session=requests.Session()
 session.headers['User-Agent']='VLADYERIK-Cover-Mirror/1.0'
+# Replace generated placeholder cards with actual game art whenever available.
+# Index the real thumbnail directories to resolve different ROM naming conventions.
+from html.parser import HTMLParser
+from difflib import SequenceMatcher
+class Links(HTMLParser):
+ def __init__(self): super().__init__(); self.links=[]
+ def handle_starttag(self,tag,attrs):
+  if tag=='a':
+   href=dict(attrs).get('href','')
+   if href.lower().endswith('.png'):self.links.append(unquote(href).split('/')[-1][:-4])
+def normalize(name):
+ name=unquote(name).lower().replace('_',' ').replace('’',"'")
+ name=re.sub(r'\\([^)]*\\)|\\[[^]]*\\]',' ',name)
+ name=re.sub(r'[^a-z0-9]+',' ',name)
+ return ' '.join(name.split())
+def get_index(system,kind):
+ url='https://thumbnails.libretro.com/'+quote(systems[system],safe='')+'/'+kind+'/'
+ try:
+  response=session.get(url,timeout=25)
+  response.raise_for_status()
+  parser=Links();parser.feed(response.text)
+  return parser.links
+ except requests.RequestException:return []
 saved=0
+indexes={}
 for game in catalog:
  path=game.get('path','')
  system=game.get('system','')
- if not path.startswith('roms/') or system not in systems or path in manifest:continue
+ if not path.startswith('roms/') or system not in systems or (path in manifest and not manifest[path].endswith('.svg')):continue
  rom=unquote(path.rsplit('/',1)[-1]).rsplit('.',1)[0]
  raw=game.get('name','').rsplit('.',1)[0]
  title=re.sub(r'\s*\([^)]*\)|\s*\[[^]]*\]','',raw).strip()
@@ -73,7 +97,24 @@ for game in catalog:
   for name in dict.fromkeys(n for n in names if n):
    safe=re.sub(r'[&*/:<>?|"\\]','_',name)
    candidates.append('https://thumbnails.libretro.com/'+quote(systems[system],safe='')+'/'+typ+'/'+quote(safe,safe='')+'.png')
- for url in candidates[:18]:
+ # Search the published directory for a genuine box, title screen or screenshot.
+ # Avoid unrelated matches: require a high title similarity.
+ for kind in ('Named_Boxarts','Named_Titles','Named_Snaps'):
+  key=(system,kind)
+  if key not in indexes:indexes[key]=get_index(system,kind)
+  expected=[normalize(n) for n in names if n]
+  matches=[]
+  for entry in indexes[key]:
+   actual=normalize(entry)
+   if not actual:continue
+   score=max((SequenceMatcher(None,e,actual).ratio() for e in expected),default=0)
+   if any(e==actual for e in expected):score=1.0
+   if score>=0.83:matches.append((score,entry))
+  matches.sort(reverse=True)
+  for _,entry in matches[:3]:
+   url='https://thumbnails.libretro.com/'+quote(systems[system],safe='')+'/'+kind+'/'+quote(entry.replace('&','_').replace('/','_'),safe='')+'.png'
+   if url not in candidates:candidates.append(url)
+ for url in candidates[:18]+candidates[18:27]:
   try:
    response=session.get(url,timeout=7)
    if response.status_code!=200 or len(response.content)>8_000_000:continue
