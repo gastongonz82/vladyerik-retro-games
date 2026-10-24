@@ -12,6 +12,8 @@ out=ROOT/'assets'/'retro-covers'
 out.mkdir(parents=True,exist_ok=True)
 manifest_path=ROOT/'retro-hosted-covers.json'
 manifest=json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else {}
+# Preserve every existing real cover; only placeholder entries may be replaced.
+original_real_covers={key:value for key,value in manifest.items() if not value.endswith('.svg')}
 systems={'nes':'Nintendo - Nintendo Entertainment System','snes':'Nintendo - Super Nintendo Entertainment System','segaMD':'Sega - Mega Drive - Genesis','segaGG':'Sega - Game Gear','n64':'Nintendo - Nintendo 64','arcade':'MAME'}
 arcade_names={'dkong':['Donkey Kong (US set 1)','Donkey Kong'],'1942':['1942 (Revision B)','1942'],'1941j':['1941 - Counter Attack (Japan)','1941 - Counter Attack'],'1944j':['1944 - The Loop Master (Japan 000620)','1944 - The Loop Master'],'pacman':['Pac-Man (Midway)','Pac-Man'],'galaga':['Galaga (Namco rev. B)','Galaga'],'frogger':['Frogger (Sega set 1)','Frogger'],'sf2':['Street Fighter II - The World Warrior (World 910522)','Street Fighter II - The World Warrior'],'mslug':['Metal Slug - Super Vehicle-001','Metal Slug'],'mslug2':['Metal Slug 2 - Super Vehicle-001_II','Metal Slug 2'],'mslug3':['Metal Slug 3 (NGM-2560)','Metal Slug 3'],'simpsons2p2':['The Simpsons (2 Players World)','The Simpsons'],'dino':['Cadillacs and Dinosaurs (World 930201)','Cadillacs and Dinosaurs'],'goldnaxe':['Golden Axe (Version 1)','Golden Axe']}
 # Exact Libretro names for additional arcade sets already supported by Retro Arcade.
@@ -132,5 +134,6 @@ for game in catalog:
    continue
  if saved and saved%25==0:
   manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+manifest.update(original_real_covers)
 manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('New covers:',saved,'Total hosted:',len(manifest))
