@@ -69,7 +69,7 @@ class Links(HTMLParser):
    if href.lower().endswith('.png'):self.links.append(unquote(href).split('/')[-1][:-4])
 def normalize(name):
  name=unquote(name).lower().replace('_',' ').replace('’',"'")
- name=re.sub(r'\\([^)]*\\)|\\[[^]]*\\]',' ',name)
+ name=re.sub(r'\([^)]*\)|\[[^]]*\]',' ',name)
  name=re.sub(r'[^a-z0-9]+',' ',name)
  return ' '.join(name.split())
 def get_index(system,kind):
