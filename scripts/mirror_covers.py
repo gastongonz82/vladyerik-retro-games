@@ -57,6 +57,17 @@ arcade_names.update({
  'wof':['Warriors of Fate (World 921031)','Warriors of Fate'],
  'wwfmania':['WWF WrestleMania_ The Arcade Game (rev 1.30 08_10_95)','WWF WrestMania'],
 })
+# Curated genuine artwork for the seven unresolved entries (and related game editions).
+# These paths point to real game art, not generated title cards.
+curated={
+ 'roms/fatfursp.zip':('SNK - Neo Geo','Named_Boxarts','Fatal Fury Special (World)'),
+ 'roms/Quake%2064%20%28USA%29.zip':('Nintendo - Nintendo 64','Named_Boxarts','Quake (USA)'),
+ 'roms/Sonic%20the%20Hedgehog%204%20%28World%29%20%28Unl%29.zip':('Sega - Mega Drive - Genesis','Named_Boxarts','Sonic The Hedgehog (USA, Europe)'),
+ 'roms/Street%20Fighter%20II%20-%20The%20World%20Warrior%20%28Europe%29.zip':('Nintendo - Super Nintendo Entertainment System','Named_Boxarts','Street Fighter II (Europe)'),
+ 'roms/Street%20Fighter%20II%20Turbo%20-%20Hyper%20Fighting%20%28USA%29.zip':('Nintendo - Super Nintendo Entertainment System','Named_Boxarts','Street Fighter II Turbo (USA)'),
+ 'roms/Toy%20Story%202%20%28USA%29.zip':('Nintendo - Nintendo 64','Named_Boxarts','Toy Story 2 - Buzz Lightyear to the Rescue! (USA)'),
+ 'roms/Wave%20Race%2064%20%28USA%29%20%28Rev%20A%29.zip':('Nintendo - Nintendo 64','Named_Boxarts','Wave Race 64 - Kawasaki Jet Ski (USA) (Rev 1)'),
+}
 session=requests.Session()
 session.headers['User-Agent']='VLADYERIK-Cover-Mirror/1.0'
 # Replace generated placeholder cards with actual game art whenever available.
@@ -95,6 +106,9 @@ for game in catalog:
  if system=='arcade':names=list(dict.fromkeys(names+[title]))
  # Never guess unrelated cover art: only use exact-name candidate files.
  candidates=[]
+ if path in curated:
+  sys_name,kind,art_name=curated[path]
+  candidates.append('https://thumbnails.libretro.com/'+quote(sys_name,safe='')+'/'+kind+'/'+quote(art_name.replace('&','_').replace('/','_'),safe='')+'.png')
  for typ in ('Named_Boxarts','Named_Titles','Named_Snaps'):
   for name in dict.fromkeys(n for n in names if n):
    safe=re.sub(r'[&*/:<>?|"\\]','_',name)
