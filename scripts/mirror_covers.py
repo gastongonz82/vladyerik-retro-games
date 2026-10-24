@@ -115,7 +115,7 @@ for game in catalog:
    candidates.append('https://thumbnails.libretro.com/'+quote(systems[system],safe='')+'/'+typ+'/'+quote(safe,safe='')+'.png')
  # Search the published directory for a genuine box, title screen or screenshot.
  # Avoid unrelated matches: require a high title similarity.
- for kind in ('Named_Boxarts','Named_Titles','Named_Snaps'):
+ for kind in (() if path in curated else ('Named_Boxarts','Named_Titles','Named_Snaps')):
   key=(system,kind)
   if key not in indexes:indexes[key]=get_index(system,kind)
   expected=[normalize(n) for n in names if n]
