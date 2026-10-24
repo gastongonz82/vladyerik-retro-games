@@ -12,8 +12,13 @@ out=ROOT/'assets'/'retro-covers'
 out.mkdir(parents=True,exist_ok=True)
 manifest_path=ROOT/'retro-hosted-covers.json'
 manifest=json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else {}
+# Two confirmed mismatched covers may be repaired; every other real cover stays frozen.
+repair_paths={
+ 'roms/Aladdin%20%28U%29%20%5B%21%5D.zip',
+ 'roms/Batman%20Returns%20%28USA%29.zip',
+}
 # Preserve every existing real cover; only placeholder entries may be replaced.
-original_real_covers={key:value for key,value in manifest.items() if not value.endswith('.svg')}
+original_real_covers={key:value for key,value in manifest.items() if not value.endswith('.svg') and key not in repair_paths}
 systems={'nes':'Nintendo - Nintendo Entertainment System','snes':'Nintendo - Super Nintendo Entertainment System','segaMD':'Sega - Mega Drive - Genesis','segaGG':'Sega - Game Gear','n64':'Nintendo - Nintendo 64','arcade':'MAME'}
 arcade_names={'dkong':['Donkey Kong (US set 1)','Donkey Kong'],'1942':['1942 (Revision B)','1942'],'1941j':['1941 - Counter Attack (Japan)','1941 - Counter Attack'],'1944j':['1944 - The Loop Master (Japan 000620)','1944 - The Loop Master'],'pacman':['Pac-Man (Midway)','Pac-Man'],'galaga':['Galaga (Namco rev. B)','Galaga'],'frogger':['Frogger (Sega set 1)','Frogger'],'sf2':['Street Fighter II - The World Warrior (World 910522)','Street Fighter II - The World Warrior'],'mslug':['Metal Slug - Super Vehicle-001','Metal Slug'],'mslug2':['Metal Slug 2 - Super Vehicle-001_II','Metal Slug 2'],'mslug3':['Metal Slug 3 (NGM-2560)','Metal Slug 3'],'simpsons2p2':['The Simpsons (2 Players World)','The Simpsons'],'dino':['Cadillacs and Dinosaurs (World 930201)','Cadillacs and Dinosaurs'],'goldnaxe':['Golden Axe (Version 1)','Golden Axe']}
 # Exact Libretro names for additional arcade sets already supported by Retro Arcade.
@@ -60,6 +65,8 @@ arcade_names.update({
 # Curated genuine artwork for the seven unresolved entries (and related game editions).
 # These paths point to real game art, not generated title cards.
 curated={
+ 'roms/Aladdin%20%28U%29%20%5B%21%5D.zip':('Nintendo - Super Nintendo Entertainment System','Named_Boxarts','Aladdin (USA)'),
+ 'roms/Batman%20Returns%20%28USA%29.zip':('Nintendo - Super Nintendo Entertainment System','Named_Boxarts','Batman Returns (USA)'),
  'roms/fatfursp.zip':('SNK - Neo Geo','Named_Boxarts','Fatal Fury Special _ Garou Densetsu Special (set 1)(NGM-058)(NGH-058)'),
  'roms/Quake%2064%20%28USA%29.zip':('Nintendo - Nintendo 64','Named_Boxarts','Quake (USA)'),
  'roms/Sonic%20the%20Hedgehog%204%20%28World%29%20%28Unl%29.zip':('Sega - Mega Drive - Genesis','Named_Boxarts','Sonic The Hedgehog (USA, Europe)'),
@@ -98,7 +105,7 @@ indexes={}
 for game in catalog:
  path=game.get('path','')
  system=game.get('system','')
- if not path.startswith('roms/') or system not in systems or (path in manifest and not manifest[path].endswith('.svg')):continue
+ if not path.startswith('roms/') or system not in systems or (path in manifest and not manifest[path].endswith('.svg') and path not in repair_paths):continue
  rom=unquote(path.rsplit('/',1)[-1]).rsplit('.',1)[0]
  raw=game.get('name','').rsplit('.',1)[0]
  title=re.sub(r'\s*\([^)]*\)|\s*\[[^]]*\]','',raw).strip()
