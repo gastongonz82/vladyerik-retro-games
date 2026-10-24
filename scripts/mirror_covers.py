@@ -60,7 +60,7 @@ arcade_names.update({
 # Curated genuine artwork for the seven unresolved entries (and related game editions).
 # These paths point to real game art, not generated title cards.
 curated={
- 'roms/fatfursp.zip':('SNK - Neo Geo','Named_Boxarts','Fatal Fury Special (World)'),
+ 'roms/fatfursp.zip':('SNK - Neo Geo','Named_Boxarts','Fatal Fury Special _ Garou Densetsu Special (set 1)(NGM-058)(NGH-058)'),
  'roms/Quake%2064%20%28USA%29.zip':('Nintendo - Nintendo 64','Named_Boxarts','Quake (USA)'),
  'roms/Sonic%20the%20Hedgehog%204%20%28World%29%20%28Unl%29.zip':('Sega - Mega Drive - Genesis','Named_Boxarts','Sonic The Hedgehog (USA, Europe)'),
  'roms/Street%20Fighter%20II%20-%20The%20World%20Warrior%20%28Europe%29.zip':('Nintendo - Super Nintendo Entertainment System','Named_Boxarts','Street Fighter II (Europe)'),
