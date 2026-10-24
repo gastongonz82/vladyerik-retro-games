@@ -1,0 +1,32 @@
+name: Host Retro Arcade cover images
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/mirror_covers.py
+      - .github/workflows/host-covers.yml
+permissions:
+  contents: write
+jobs:
+  host-covers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow requests
+      - name: Download and optimize cover art
+        run: python scripts/mirror_covers.py
+      - name: Commit only new hosted cover files and manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/retro-covers retro-hosted-covers.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Host optimized Retro Arcade cover images"
+            git push
+          fi
